@@ -22,3 +22,10 @@ gameOver = "true";
 let movie = "This is fvrt movie";
 movie = "Change to other";
 movie = 3;
+
+// The Any Type
+let anyType: any = "Hello";
+anyType();
+anyType = false;
+anyType = 2;
+anyType.toUpperCase();
