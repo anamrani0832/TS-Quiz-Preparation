@@ -16,3 +16,9 @@ noOfCatLives = "Zero";
 let gameOver: boolean = false;
 gameOver = true;
 gameOver = "true";
+
+
+// Type Inference
+let movie = "This is fvrt movie";
+movie = "Change to other";
+movie = 3;
