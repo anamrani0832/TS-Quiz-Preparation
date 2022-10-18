@@ -12,3 +12,7 @@ noOfCatLives += 1;
 // ERROR
 noOfCatLives = "Zero";   
 
+// Booleans
+let gameOver: boolean = false;
+gameOver = true;
+gameOver = "true";
