@@ -21,12 +21,23 @@ let add = (x: number, y: number): number => {
 
 // Anonymous function contextual typing
 
-const colors = ['red', 'orange', 'green'];
-colors.map(color => {
+const colors = ["red", "orange", "green"];
+colors.map((color) => {
   return color.toUpperCase();
 });
 
 // the void type of function
 let printTwice = (msg: string): void => {
   console.log(msg);
-}
+};
+
+// ******the never type of function *********
+// a function that doesn't finish running
+const neverStop = (): never => {
+  while (true) {
+    console.log("i'm still going");
+  }
+};
+
+
+
