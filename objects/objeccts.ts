@@ -28,3 +28,17 @@ let printName = (person:Person) => {
     z?: string
  }
  const triangle: Dots = {x: 2, y:4}
+
+//  *******The readOnly Modifier
+
+type User = {
+    readonly id : number,
+    name: string
+}
+ 
+const user: User = {
+    id: 123,
+    name: "anam"
+}
+console.log(user.id);
+user.id= 34;
