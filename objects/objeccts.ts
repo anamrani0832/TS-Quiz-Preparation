@@ -41,4 +41,4 @@ const user: User = {
     name: "anam"
 }
 console.log(user.id);
-user.id= 34;
+// user.id= 34;
